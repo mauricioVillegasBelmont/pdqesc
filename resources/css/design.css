@@ -229,31 +229,31 @@ nav.menuScale{
 }
 #icon2{
 	background-image: url(../lib/img/flor/icon-02.svg);
-	
+
 }
 #icon3{
 	background-image: url(../lib/img/flor/icon-03.svg);
-	
+
 }
 #icon4{
 	background-image: url(../lib/img/flor/icon-04.svg);
-	
+
 }
 #icon5{
 	background-image: url(../lib/img/flor/icon-05.svg);
-	
+
 }
 #icon6{
 	background-image: url(../lib/img/flor/icon-06.svg);
-	
+
 }
 #icon7{
 	background-image: url(../lib/img/flor/icon-07.svg);
-	
+
 }
 #icon8{
 	background-image: url(../lib/img/flor/icon-08.svg);
-	
+
 }
 /*-----------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------*/
@@ -329,7 +329,7 @@ nav.menuScale{
 
 /*diap02*/
 #d02v01_01{
-	
+
 }
 /*diap03*/
 #d03v01_01{
@@ -367,4 +367,12 @@ nav.menuScale{
 #d10v01_02{
 	margin: 50px;
 	width: calc(100% - 100px);
+}
+.reveal video{
+	transition: width .5s ease-in;
+	transition-delay: 1s;
+	width: 10%;
+}
+.reveal .present video {
+	width: 100%;
 }
